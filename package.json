@@ -1,0 +1,19 @@
+{
+  "name": "type-of",
+  "version": "1.0.0",
+  "description": "'fix' typeof",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elantion/typeOf.git"
+  },
+  "author": "JamesYin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elantion/typeOf/issues"
+  },
+  "homepage": "https://github.com/elantion/typeOf#readme"
+}
