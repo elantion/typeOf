@@ -1,0 +1,2 @@
+# typeOf
+'fix' typeof
