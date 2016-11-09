@@ -1,5 +1,5 @@
 {
-  "name": "handy-type-of",
+  "name": "lc-type-of",
   "version": "1.0.0",
   "description": "'fix' typeof",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elantion/typeOf.git"
+    "url": "git+https://github.com/lazycoffee/lc-type-of.git"
   },
   "author": "JamesYin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elantion/typeOf/issues"
+    "url": "https://github.com/lazycoffee/lc-type-of/issues"
   },
-  "homepage": "https://github.com/elantion/typeOf#readme"
+  "homepage": "https://github.com/lazycoffee/lc-type-of#readme"
 }
