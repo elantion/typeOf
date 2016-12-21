@@ -16,42 +16,42 @@ describe('#type of', function() {
     var varDate = new Date;
     var varMath = Math;
     it('null', function() {
-        return assert.equal('null', typeOf(varNull));
+        assert.equal('null', typeOf(varNull));
     });
     it('undefined', function() {
-        return assert.equal('undefined', typeOf(varUndefined));
+        assert.equal('undefined', typeOf(varUndefined));
     });
     it('array', function() {
-        return assert.equal('array', typeOf(varArray));
+        assert.equal('array', typeOf(varArray));
     });
     it('number', function() {
-        return assert.equal('number', typeOf(varNumber));
+        assert.equal('number', typeOf(varNumber));
     });
     it('NaN', function() {
-        return assert.equal('number', typeOf(varNAN));
+        assert.equal('number', typeOf(varNAN));
     });
     it('object', function() {
-        return assert.equal('object', typeOf(varObject));
+        assert.equal('object', typeOf(varObject));
     });
     it('function', function() {
-        return assert.equal('function', typeOf(varFunction));
+        assert.equal('function', typeOf(varFunction));
     });
     it('boolean', function() {
-        return assert.equal('boolean', typeOf(varBoolean));
+        assert.equal('boolean', typeOf(varBoolean));
     });
     it('string', function() {
-        return assert.equal('string', typeOf(varString));
+        assert.equal('string', typeOf(varString));
     });
     it('regexp', function() {
-        return assert.equal('regexp', typeOf(varRegexp));
+        assert.equal('regexp', typeOf(varRegexp));
     });
     it('error', function() {
-        return assert.equal('error', typeOf(varError));
+        assert.equal('error', typeOf(varError));
     });
     it('date', function() {
-        return assert.equal('date', typeOf(varDate));
+        assert.equal('date', typeOf(varDate));
     });
     it('math', function() {
-        return assert.equal('math', typeOf(varMath));
+        assert.equal('math', typeOf(varMath));
     });
 });

@@ -1,4 +1,5 @@
 'use strict';
-module.exports = function (variable) {
+var typeOf =function (variable) {
     return ({}).toString.call(variable).match(/\s([a-zA-Z]+)/)[1].toLowerCase();
 };
+module.exports = typeOf;
